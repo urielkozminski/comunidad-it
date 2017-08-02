@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient( 80deg, #c3c3c3, black );
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header {
+    font-size: 40px;
+    color: red;
+    
+}
+div > h1 {
+    color: #3c3c3c;
+    font-size: 40px;
+    text-decoration-line: underline;
+    box-shadow: 0px 10px 10px 0px #c2c2c2;
+    text-shadow: 2px 2px red;
+}
+href {
+    cursor: pointer;
+}
+a:hover{
+    color: red;
+}
+a:visited {
+    color: purple;
+}
+div > span {
+    color: #3c3c3c;
+    font-size: 40px;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px red;
+}
+ul {
+    list-style-type: none;
+}

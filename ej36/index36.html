@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amamos los pseudo elementos</title>
+        <style type="text/css">
+          p::selection {
+              background-color: pink;
+              color: white;
+              font-weight: bold;
+          }
+          p::first-letter {
+              font-size: 30px;
+              font-weight: bold;
+              color: red;
+              padding: 20px;
+          }
+          p::first-line {
+              font-style: italic;
+          }
+          p::after {
+              content: FIN DE LA FIESTA;
+              font-weight: bold;
+              color: red;
+          }
+        </style>
+    </head>
+    <body>
+        <h1>Amamos los pseudo elementos</h1>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>
+        <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto</p>
+    </body>
+</html>
