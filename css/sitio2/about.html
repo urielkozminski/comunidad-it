@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacto</title>
+        <style type="text/css">
+         body {
+             font-family: Arial, Helvetica, sans-serif;
+             background: linear-gradient(85deg, white, gray);
+             padding: 20px;
+             text-align: center;
+         }
+         h1 {
+             font-size: 55px;
+             color: #141D68;
+             text-shadow: 2px 5px #99A0DC;    
+             text-decoration: underline;
+         }
+         p {
+             font-weight: bold;
+         }
+         input {
+             border: 1px solid black;
+             box-shadow: 2px 2px 3px;
+             text-align: center;
+             border-radius: 15px;
+             vertical-align: center;
+         }
+         .imagen {
+             vertical-align: bottom;
+         }
+        </style>
+    </head>
+    <body>
+        <h1>Contacto</h1>
+        <hr />
+        <p>Pueden mandarnos opiniones, criticas y propuestas a nuestro<span><a href="mailto:Urik94@hotmail.com"> mail personal!</a></span></p>
+        <br />
+        <br />
+        <p>Para asistir a las charlas de lutheria: lunes a viernes, 10am a 14pm en <a href="https://www.google.com.ar/maps/place/Av.+Cabildo+2505,+Buenos+Aires/@-34.558204,-58.4621072,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcb42b02e12c9b:0x90a652d799256b1a!8m2!3d-34.558204!4d-58.4599185">Cabildo 2505</a> suscribirse! </p>
+        <form action="guardarusuario.html" enctype="multipart/form-data">
+            <input type="text" name="nombre" placeholder="Juan" />
+            <input type="text" name="apellido" placeholder="Perez" />
+            <input type="text" name="dni" placeholder="dni" maxlength="8" />
+            <input class="imagen" type="image" src="enviar.jpg" height="40" width="40"  />
+        </form>
+    </body>
+</html>

@@ -5,7 +5,7 @@ body {
 }
 header {
     font-size: 40px;
-    color: red;
+    color: black;
     
 }
 div > h1 {
@@ -13,7 +13,7 @@ div > h1 {
     font-size: 40px;
     text-decoration-line: underline;
     box-shadow: 0px 10px 10px 0px #c2c2c2;
-    text-shadow: 2px 2px red;
+    text-shadow: 2px 2px black;
 }
 href {
     cursor: pointer;
@@ -28,7 +28,7 @@ div > span {
     color: #3c3c3c;
     font-size: 40px;
     text-decoration-line: underline;
-    text-shadow: 2px 2px red;
+    text-shadow: 2px 2px black;
 }
 ul {
     list-style-type: none;
